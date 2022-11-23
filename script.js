@@ -1,5 +1,5 @@
 $(document).ready(function(){
-
+    $(".titre2").hide()
     let randomNumber = Math.floor(Math.random() * 10)
     console.log(randomNumber)
 
@@ -23,6 +23,8 @@ $(document).ready(function(){
           input.remove()
           $(".fa-check-circle").show()
           $(".fa-check-circle").addClass("animated jackInTheBox")
+          $(".titre").hide()
+          $(".titre2").show()
       }
    })
 })
